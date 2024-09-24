@@ -151,6 +151,7 @@ if __name__ == "__main__":
     
     parser.add_argument('--search_keys', type=str, nargs='+', help="List of search keys (e.g., 'cat t-shirt')", required=True)
     parser.add_argument('--num_images', type=int, help="Number of images to scrape", default=5)
+    parser.add_argument('--use_proxies', type=bool, help="Use proxies (True/False)", default=True)
     parser.add_argument('--keep_filenames', type=bool, help="Keep original filenames (True/False)", default=False)
     parser.add_argument('--api_key', type=str, help="API key for proxy service", required=False)
 
