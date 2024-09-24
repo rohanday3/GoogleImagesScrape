@@ -41,7 +41,7 @@ cd GoogleImageScraper
 You can run the scraper from the command line with the following command:
 
 ```bash
-python main.py --search_keys "your+search+term" --num_images 5 --use_proxies True --keep_filenames False --api_key "your_api_key"
+python main.py --search_keys "your+search+term" --num_images 5 --keep_filenames False --api_key "your_api_key"
 ```
 Replace "your search term" with your desired search keywords, and adjust the other parameters as necessary.
 
